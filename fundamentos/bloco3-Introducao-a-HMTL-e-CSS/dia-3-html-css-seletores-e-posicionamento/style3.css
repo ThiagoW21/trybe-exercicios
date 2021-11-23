@@ -1,0 +1,16 @@
+h1, p {
+    text-align: center;
+}
+
+li:hover{
+    background-color: #91bee9;
+}
+
+li:active{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:rgb(252, 255, 246)
+}
+
+li{
+    list-style: none;
+}
