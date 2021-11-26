@@ -1,0 +1,80 @@
+html {
+    background-color: rgb(236, 235, 238);
+}
+
+
+
+main {
+    display: inline-block;
+    width: 50%;
+    text-align: center;
+    margin-left: 300px;
+}
+
+main img {
+    width: 670px;
+    
+}
+
+p {
+    text-align: justify;
+    
+}
+
+ul {
+    list-style: none;
+}
+
+aside {
+    position: relative;
+    display: inline-block;
+    bottom: 1915px;
+    margin-left: 40px;
+    border: 1px solid black;
+}
+
+.titulo-tab {
+    background-color: pink;
+}
+
+#reinos {
+    display: inline-block;
+    margin-left: 20%;
+}
+
+td {
+    color:blue
+}
+
+footer {
+    display: block;
+    background-color: rgb(177, 174, 174);
+    height: 50px;
+    text-align: center;
+}
+
+footer p {
+    position: relative;
+    width: 400px;
+    top: 15px;
+    left: 550px;
+}
+
+h1{
+    font-size: 40px;
+    font-family: sans-serif;
+    color: rgb(255, 255, 255);
+    border: 1px solid black;
+    text-align: center;
+    background-color: orange;
+}
+
+nav {
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 100px;
+    color: rgb(71, 0, 36);
+    border: 1px solid black;
+    font-family: sans-serif;
+    background-color:lightcoral;
+}
