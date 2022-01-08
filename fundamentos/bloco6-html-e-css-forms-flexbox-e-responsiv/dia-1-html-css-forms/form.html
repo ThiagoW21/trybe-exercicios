@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <form action="GET">
+    <fieldset>
+      <header>
+        <h3>Dados pessoais</h3>
+      </header>
+      <label for="name">Nome completo</label>
+      <input type="text" name="name" id="name" required maxlength="40">
+      <br>
+      <label for="email">email</label>
+      <input type="email" name="email" id="email" required maxlength="50">
+      <br>
+      <label for="cpf">CPF</label>
+      <input type="text" id="cpf" name="cpf" required>
+      <br>
+      <label for="endereco">Endereço</label>
+      <input type="text" id="endereco" name="endereco">
+      <br>
+      <label for="estado">Estado</label>
+      <select name="estado" id="estado" required></select>
+      <br>
+      <label><input type="radio" name="moradia" id="casa">Casa</label>
+      <label><input type="radio" name="moradia" id="Apartamento">Apartamento</label>
+      
+    </fieldset>
+    <br>
+    <fieldset>
+      <header>
+        <h3>Ultimo emprego</h3>
+      </header>
+      <label for="resumo">Resudo do currículo:</label>
+      <textarea name="resumo" id="resumo-curriculo" cols="30" rows="5" maxlength="1000"></textarea>
+      <br>
+      <label for="cargo">Cargo:</label>
+      <textarea name="cargo" id="cargo" cols="30" rows="5" maxlength="40" required></textarea>
+      <br>
+      <label for="cargo">Descrição do cargo:</label>
+      <textarea name="cargo" id="cargo" cols="30" rows="5" maxlength="40" required></textarea>
+      <br>
+      <label for="data">Data de inicio:</label>
+      <input type="date" name="data" id="data-inicio">
+    </fieldset>
+  </form>
+<script src="script.js"></script>
+</body>
+</html>
